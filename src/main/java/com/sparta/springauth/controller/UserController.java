@@ -35,6 +35,7 @@ public class UserController {
         return "redirect:/api/user/login-page";
     }
 
+    /**
     @PostMapping("/user/login")
     public String login(LoginRequestDto requestDto, HttpServletResponse res) {
 
@@ -46,4 +47,5 @@ public class UserController {
 
         return "redirect:/";
     }
+    **/
 }
